@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+h1 {
+    font-size: 8rem;
+    line-height: 1rem;
+}
+
+p {
+    font-size: 2.5rem;
+    text-align: justify;
+    padding-right: 80px;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container-00 {
+    width: 80%;
+}
+
+.container-01 {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.container-02 {
+    width: 50%;
+    padding: 20px;
+    padding-top: 60px;
+    display: block;
+    float: right;
+}
+
+img {
+    width: 90%;
+    height: auto;
+}
+
+@media (max-width: 400px) {
+   .container-00 {
+    width: 100%;
+   }
+   
+    .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+   }
+
+   img {
+    width: 100%;
+   }
+}
