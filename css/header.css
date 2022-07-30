@@ -1,5 +1,7 @@
 header {
     padding: 30px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo {
@@ -7,4 +9,24 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.lista-nav {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-list {
+   display: flex;
+   list-style-type: none;
+}
+
+.nav-list li, a {
+    justify-content: space-around;
+    margin-right: 25px;
+    font-size: 2.3rem;
+    text-decoration: none;
+    color: black;
 }
