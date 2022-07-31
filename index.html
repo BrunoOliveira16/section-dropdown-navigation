@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <!-- Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&family=Open+Sans&family=Poppins:wght@100;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS Styles-->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
 
@@ -20,17 +24,49 @@
 
         <div class="lista-nav">
             <ul class="nav-list">
-                <li class="nav-item"><a href="#Features">Features</a></li>
-                <li class="nav-item"><a href="#Company">Company</a></li>
+
+                <li class="nav-item">
+                    <a href="">Features
+                        <img src="./img/icon-arrow-down.svg" alt="arrow-down">
+                    </a>
+                    <ul class="submenu-dropdown">
+                       <li class="sd-item">
+                            <a href="">
+                                <img src="./img/icon-todo.svg" alt="Todo">Todo List
+                            </a>
+                            <a href="">
+                               <img src="./img/icon-calendar.svg" alt="Calendar">Calendar</a>
+                            <a href="">
+                               <img src="./img/icon-reminders.svg" alt="Reminders">Reminders</a>
+                            <a href="">
+                               <img src="./img/icon-planning.svg" alt="Planning">Planning</a>
+                        </li>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#Company">Company
+                        <img src="./img/icon-arrow-down.svg" alt="arrow-down">
+                    </a>
+                    <ul class="submenu-dropdown">
+                        <li class="sd-item">
+                             <a href="">History</a>
+                             <a href="">Our Team</a>
+                             <a href="">Blog</a>
+                        </li>
+                    </ul>
+                </li>
+
                 <li class="nav-item"><a href="#Carees">Carees</a></li>
                 <li class="nav-item"><a href="#About">About</a></li>
+
             </ul>
         </div>
 
         <div class="lista-nav01">
-            <ul class="nav-list">
+            <ul class="nav-list-01">
                 <li class="nav-item"><a href="#Login">Login</a></li>
-                <li class="nav-item-01"><a href="#Register">Register</a></li>
+                <li class="nav-item-01"><button type="button">Register</button></li>
             </ul>
         </div>
 
@@ -46,13 +82,25 @@
             <div class="container-02">
                 <h1>Make</h1>
                 <h1>remote work</h1>
-                <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
-                <button type="button" title="Learn more">Learn more</button>
+                <p>Get your team in sync, no matter your location.</p>
+                <p>Streamline processes, create team rituals, and watch productivity soar.</p>
+                <button type="button">Learn more</button>
+            </div>
+
+            <div class="container-03">
+                <img src="./img/client-databiz.svg" alt="databiz">
+                <img src="./img/client-audiophile.svg" alt="audiophile">
+                <img src="./img/client-meet.svg" alt="client-meet">
+                <img src="./img/client-maker.svg" alt="maker">
             </div>
 
         </div>
 
     </section>
+
+    <footer>
+        <h2>Desenvolvido por Bruno Oliveira</h2>
+    </footer>
 
 </body>
 </html>

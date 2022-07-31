@@ -17,8 +17,13 @@ Aplicação de conceitos em:
 
 - HTML;
 - CSS;
-- JavaScript;
 - Layouts Responsivos;
 - Navegações suspensas.
 
-em atualização...
+# SCREENSHOTS
+
+Tela 01
+[Screenshot](./screenshot/screenshot.jpg)
+
+Tela 02
+[Screenshot](./screenshot/screenshot01.jpg)
