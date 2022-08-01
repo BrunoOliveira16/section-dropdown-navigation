@@ -11,6 +11,7 @@
     <!-- CSS Styles-->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 
     <title>Home</title>
 </head>
@@ -76,14 +77,15 @@
         <div class="container-00">
 
             <div class="container-01">
-                <img src="./img/image-hero-desktop.png" alt="img-01">
+                <picture>
+                    <source media="(max-width: 900px)" srcset="./img/image-hero-mobile.png">
+                    <img src="./img/image-hero-desktop.png" alt="img-01">
+                </picture>
             </div>
 
             <div class="container-02">
-                <h1>Make</h1>
-                <h1>remote work</h1>
-                <p>Get your team in sync, no matter your location.</p>
-                <p>Streamline processes, create team rituals, and watch productivity soar.</p>
+                <h1>Make remote work</h1>
+                <p>Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
                 <button type="button">Learn more</button>
             </div>
 
