@@ -102,3 +102,7 @@ footer:hover {
 .sd-item a:hover {
     color: hsl(0, 0%, 8%);
 }
+
+.menu, .submenu-mob {
+    display: none;
+}

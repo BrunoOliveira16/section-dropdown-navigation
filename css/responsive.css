@@ -113,4 +113,33 @@
     .lista-nav, .nav-item, .nav-item-01 button{
         display: none !important;
     }
+
+    .menu {
+        width: 70%;
+        display: flex;
+        justify-content: end;
+    }
+
+    .menu img {
+        height: 30px;
+        display: flex;
+    }
+
+    .menu:hover .submenu-mob {
+        display: flex;
+        position: fixed;
+        right: 10px;
+    }
+  
+    .submenu-mob li {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        list-style-type: none;
+        border-radius: 15px;
+        padding: 15px;
+        padding-top: 5px;
+        background-color: white;
+    }
+
 }
