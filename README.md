@@ -28,4 +28,10 @@ Tela 01
 Tela 02
 ![Screenshot](./screenshot/screenshot01.jpg)
 
-Em andamento...
+Tela 03
+![Screenshot](./screenshot/screenshot02.jpg)
+
+# LINK PARA NAVEGADOR
+Para visualizar o projeto no seu navegador utilize o link abaixo:
+
+https://brunooliveira16.github.io/section-dropdown-navigation/
