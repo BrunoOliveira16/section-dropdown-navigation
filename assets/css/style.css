@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Epilogue', sans-serif;
+    background-color: hsl(0, 0%, 98%);
+}
+
+body {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer {
+    text-align: center;
+    font-size: 3rem;
+    color: hsl(0, 0%, 41%);;
+
+}
+
+h1 {
+    font-size: 8rem;
+}
+
+p {
+    font-size: 1.8rem;
+    padding-right: 80px;
+    margin: 0;
+    color: hsl(0, 0%, 41%);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+.container-00 {
+    width: 80%;
+    height: auto;
+    margin: 20px auto 80px auto;
+}
+
+.container-01, .container-03 {
+    width: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.container-02 {
+    width: 50%;
+    padding: 20px;
+    margin-top: 50px;
+    display: block;
+}
+
+.container-01 img {
+    width: 450px;
+    height: 650px;
+}
+
+button {
+    background-color: hsl(0, 0%, 8%);
+    color: white;
+    margin: 80px 0 40px 0;
+    font-size: 2rem;
+    padding: 10px 20px 10px 20px;
+    border-radius: 15px;
+    border: 1px solid hsl(0, 0%, 8%);
+}
+
+.container-03 {
+    justify-content: space-between;
+    padding-right: 80px;
+    margin-top: 10px;
+}
+
+.container-03 img {
+    width: 90px;
+    height: auto;
+}
+
+button:hover {
+    background-color: white;
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
