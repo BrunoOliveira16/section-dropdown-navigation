@@ -23,13 +23,13 @@ Aplicação de conceitos em:
 ## SCREENSHOTS
 
 Designer 01
-![Screenshot](./screenshot/screenshot.jpg)
+![Screenshot](./assets/screenshot/screenshot.jpg)
 
 Designer 02
-![Screenshot](./screenshot/screenshot01.jpg)
+![Screenshot](./assets/screenshot/screenshot01.jpg)
 
 Designer 03
-![Screenshot](./screenshot/screenshot02.jpg)
+![Screenshot](./assets/screenshot/screenshot02.jpg)
 
 ## LINK PARA NAVEGADOR
 Para visualizar o projeto no seu navegador utilize o link abaixo:
