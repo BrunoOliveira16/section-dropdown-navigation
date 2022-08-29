@@ -24,8 +24,6 @@ Construir uma seção de introdução com navegação suspensa para que os usuá
 ## 💼 Tecnologias utilizadas
 - HTML;
 - CSS;
-- Layouts Responsivos;
-- Navegações suspensas.
 
 ---
 
